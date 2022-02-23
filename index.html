@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,700;1,300&display=swap" rel="stylesheet">  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,700;1,300&display=swap"
+    rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -19,23 +21,20 @@
     <a href="#informativo"> <i class="fa fa-book"></i> Itinerário Formativo</a>
     <a href="#atuacao"><i class="fa fa-fw fa-envelope"></i> Atuação Profissional</a>
     <a href="#projetos"><i class="fa fa-fw fa-user"></i> Projetos</a>
-    <a href="#fa"><i class="fa fa-users"></i> Familia</a>
   </div>
   <div class="Home">
-    <h1>
-      Home
-    </h1>
+    <div class="img">
+      <img src="assets/perfil.jpg" alt="perfil" class="image">
+    </div>
     <P>Olá, Meu nome é João Victor Lourenço, Tenho 20 anos, Faço Analise e Desenvolvimento de Sistemas na IFTM, Sou um
       faz tudo em Desenvolvimento na FETI, Meu maior objetivo no momento é me tornar Full-stack.</P>
-      <a class="btn" href="#informativo">Proxima Seção </a>
+    <a class="btn" href="#informativo">Proxima Seção </a>
 
   </div>
   <div class="informativo" id="informativo">
 
 
-    <h1>
-      Itinerário
-    </h1>
+   <div class="logos"><i class="fa fa-book"></i></div>
     <p>
       Já aprendi um pouco de html/css, javascript e PHP por conta própria na faculadade aprendi sobre logica de
       programação (muito importante nos dias de hoje) não sou o melhor em designer e cores mas gosto muito do front.
@@ -46,26 +45,40 @@
   </div>
   <div class="atuacao" id="atuacao">
 
-    <h1>
-      Atuação Profissional
-    </h1>
+    <div class="logos"><i class="fa fa-fw fa-envelope"></i></div>
     <p>
-      Hoje assim como ja havia mencionado trabalho na FETI, Mas meu maior objetivo no momento é tentar entrar em alguma empresa grande para aprender cada vez mais, Faço Parte da Empresa Júnior Da IFTM a bugWare e estou desenvolvendo o projeto interno no front-end.
+      Hoje assim como ja havia mencionado trabalho na FETI, Mas meu maior objetivo no momento é tentar entrar em alguma
+      empresa grande para aprender cada vez mais, Faço Parte da Empresa Júnior Da IFTM a bugWare e estou desenvolvendo o
+      projeto interno no front-end.
     </p>
 
     <a href="#projetos" class="btn"> Proxima seção </a>
   </div>
   <div class="projetos" id="projetos">
 
-    <h1>
-      Projetos
-    </h1>
-   <p>Teste</p>
-    <a href="#" class="btn"> Proxima seção </a>
-  </div>
+    <div class="logos"><i class="fa fa-fw fa-user"></i></div>
+    <div class="cards">
+      <div class="card1">
+        <h3> Projeto bugWare</h3>
+        <p> Sistema interno da empresa junior onde trabalhei no front-end</p>
+        <a href="https://github.com/bugware-ej/bug-frontend-projin" target="blank" class="btn btn-cards"> Github </a>
+      </div>
+      <div class="card2">
 
+        <h3> Projeto FETI</h3>
+        <p> Projeto da empresa em que trabalho atualmente em andamento </p>
+        <a href="https://github.com/equipeFeti/feti-enterprises" target="blank" class="btn btn-cards"> Github  </a>
+      </div>
+      <div class="card3">
+        <h3> Projeto de pórtifolio </h3>
+        <p> Para quem quiser ver o projeto no gitHub o link está abaixo</p>
+        <a href="https://github.com/Eenar/atividade-iftm-1" target="blank" class="btn btn-cards"> Github </a>
 
+      </div>
 
+    </div>
+    <a href="#" class="btn"> Voltar ao Home </a>
+    </div>
   <script src="scripts/script.js"></script>
 </body>
 
